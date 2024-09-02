@@ -1,0 +1,290 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 4.125in; /* Set to the width of the envelope */
+    height: 9.5in; /* Set to the height of the envelope */
+    padding: 0.2in; /* Maintain some padding */
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #545454;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #545454;
+    color: #ffffff;
+    padding: 8px;
+    font-size: 12px; /* Adjust as needed */
+}
+
+.cash-deposit-heading {
+    background-color: #545454;
+}
+
+.cash-deposit-section, .change-section {
+    margin-bottom: 20px; /* Ensure space between sections */
+}
+
+/* Cash Deposit Table */
+.cash-deposit-table th, .cash-deposit-table td {
+    padding: 5px; /* Adjust padding as needed */
+}
+
+.cash-deposit-table th {
+    background-color: #f2f2f2; /* Header background color */
+    text-align: left; /* Align text to the left */
+    width: 30%; /* Adjust width for headers */
+}
+
+.cash-deposit-table td {
+    text-align: left; /* Align text to the left */
+    width: 70%; /* Adjust width for data cells */
+}
+
+.header-section {
+    margin-bottom: 10px; /* Space after header section */
+}
+
+.day-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px; /* Space after day table */
+}
+
+.day-table th, .day-table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+
+.day-table th {
+    background-color: #f2f2f2;
+}
+
+/* Specific widths for day-table columns */
+.day-table th:nth-child(1), .day-table td:nth-child(1) {
+    width: 10%; /* Adjust as needed for DAY label */
+}
+
+.day-table th:nth-child(2), .day-table td:nth-child(2) {
+    width: 12.5%; /* Adjust as needed */
+}
+
+.day-table th:nth-child(3), .day-table td:nth-child(3) {
+    width: 12.5%; /* Adjust as needed */
+}
+
+.day-table th:nth-child(4), .day-table td:nth-child(4) {
+    width: 12.5%; /* Adjust as needed */
+}
+
+.day-table th:nth-child(5), .day-table td:nth-child(5) {
+    width: 12.5%; /* Adjust as needed */
+}
+
+.day-table th:nth-child(6), .day-table td:nth-child(6) {
+    width: 12.5%; /* Adjust as needed */
+}
+
+.day-table th:nth-child(7), .day-table td:nth-child(7) {
+    width: 12.5%; /* Adjust as needed */
+}
+
+.day-table th:nth-child(8), .day-table td:nth-child(8) {
+    width: 12.5%; /* Adjust as needed */
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line {
+    flex-grow: 1;
+    border-bottom: 1px solid #000;
+    height: 12px; /* Adjust if needed */
+}
+
+.name-line {
+    margin-right: 20px; /* Space between NAME line and DATE label */
+}
+
+.line + .line {
+    margin-left: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-size: 9px; /* Font size for tables */
+}
+
+table, th, td {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 5.5px;
+    box-sizing: border-box;
+}
+
+/* Specific Styling for Each Table */
+
+.change-request-heading {
+    background-color: #545454;
+}
+
+/* Cash Deposit Table */
+.cash-deposit-table {
+    border: 1px solid #000; /* Default border */
+}
+
+.cash-deposit-table th, .cash-deposit-table td {
+    background-color: #ffffff; /* Default background color for cells */
+}
+
+/* Bills Table */
+.bills-table {
+    border: 1px solid #000; /* Default border */
+}
+
+/* Specific widths for bills-table columns */
+.bills-table th:nth-child(1), .bills-table td:nth-child(1) {
+    width: 25%; /* Adjust as needed */
+}
+
+.bills-table th:nth-child(2), .bills-table td:nth-child(2) {
+    width: 5%; /* Adjust as needed */
+}
+
+.bills-table th:nth-child(3), .bills-table td:nth-child(3) {
+    width: 55%; /* Adjust as needed */
+}
+
+.bills-table th:nth-child(4), .bills-table td:nth-child(4) {
+    width: 5%; /* Adjust as needed */
+}
+
+.bills-table th {
+    background-color: #f2f2f2; /* Default background color for headers */
+}
+
+/* Coins Table */
+.coins-table {
+    border: 1px solid #000; /* Default border */
+}
+
+/* Specific widths for coins-table columns */
+.coins-table th:nth-child(1), .coins-table td:nth-child(1) {
+    width: 25%; /* Adjust as needed */
+}
+
+.coins-table th:nth-child(2), .coins-table td:nth-child(2) {
+    width: 5%; /* Adjust as needed */
+}
+
+.coins-table th:nth-child(3), .coins-table td:nth-child(3) {
+    width: 55%; /* Adjust as needed */
+}
+
+.coins-table th:nth-child(4), .coins-table td:nth-child(4) {
+    width: 5%; /* Adjust as needed */
+}
+
+.coins-table th {
+    background-color: #f2f2f2; /* Default background color for headers */
+}
+
+/* Rolls Table */
+.rolls-table {
+    border: 1px solid #000; /* Default border */
+}
+
+/* Specific widths for rolls-table columns */
+.rolls-table th:nth-child(1), .rolls-table td:nth-child(1) {
+    width: 25%; /* Adjust as needed */
+}
+
+.rolls-table th:nth-child(2), .rolls-table td:nth-child(2) {
+    width: 5%; /* Adjust as needed */
+}
+
+.rolls-table th:nth-child(3), .rolls-table td:nth-child(3) {
+    width: 55%; /* Adjust as needed */
+}
+
+.rolls-table th:nth-child(4), .rolls-table td:nth-child(4) {
+    width: 5%; /* Adjust as needed */
+}
+
+.rolls-table th {
+    background-color: #f2f2f2; /* Default background color for headers */
+}
+
+.notes-heading {
+    background-color: #545454;
+}
+
+.notes-box {
+    width: 100%;
+    height: 1in; /* Adjusted height for notes box */
+    border: 1px solid #000;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 9px;
+}
+
+/* Print-specific styles */
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 4.125in; /* Ensure correct width for print */
+        height: 9.5in; /* Ensure correct height for print */
+    }
+
+    h1, h2, h3 {
+        background-color: #545454 !important; /* Ensure background color */
+        color: #ffffff !important; /* Ensure text color */
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    th {
+        background-color: #f2f2f2 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid #000 !important; /* Ensure borders */
+    }
+
+    .change-section h2 {
+        display: block;
+        page-break-before: always; /* Start Change Request section on a new page */
+    }
+}
